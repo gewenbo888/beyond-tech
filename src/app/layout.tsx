@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Gewenbo", url: "https://psyverse.fun" }],
   alternates: { canonical: "/", languages: { en: "/", "zh-CN": "/", "x-default": "/" } },
   openGraph: {
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Beyond Technology · 技术之上" }],
     title: "Beyond Technology · 技术之上",
     description: "Eight layers of reality, mapped as one interactive bilingual temple.",
     url: "https://beyond-tech.psyverse.fun/",
@@ -25,6 +26,7 @@ export const metadata: Metadata = {
     locale: "en_US", alternateLocale: ["zh_CN"],
   },
   twitter: {
+    images: ["/twitter-image.png"],
     card: "summary_large_image",
     title: "Beyond Technology",
     description: "Eight layers of reality, mapped as one interactive bilingual temple.",
